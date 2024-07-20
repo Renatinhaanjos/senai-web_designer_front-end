@@ -14,10 +14,7 @@ body {
     font-family: var(--font-family-first);
     color: var(--fift-color);
 }
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGJMCMKN"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 
 a {
     color: var(--first-color);
