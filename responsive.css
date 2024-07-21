@@ -22,12 +22,6 @@
     }
 }
 
-
-/***** NAVIGATION MENU *****/
-
-
-/*Desktop Navigation*/
-
 @media (max-width: 1366px) {
     .navbar .dropdown .dropdown ul {
         left: -90%;
@@ -36,9 +30,6 @@
         left: -100%;
     }
 }
-
-
-/*Mobile Navigation*/
 
 @media (max-width: 991px) {
     .mobile-nav-toggle {
@@ -51,9 +42,6 @@
         display: block;
     }
 }
-
-
-/**** BACKGROUND SECTION *****/
 
 @media (min-width: 1024px) {
     #background {

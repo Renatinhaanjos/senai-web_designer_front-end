@@ -41,9 +41,6 @@ h6 {
     position: relative;
 }
 
-
-/***** BACK TO TOP BUTTON *****/
-
 .back-to-top {
     position: fixed;
     visibility: hidden;
@@ -73,9 +70,6 @@ h6 {
     opacity: 1;
 }
 
-
-/***** HEADER *****/
-
 #header {
     height: 70px;
     z-index: 997;
@@ -89,12 +83,6 @@ h6 {
     height: 60px;
     width: 100px;
 }
-
-
-/***** NAVIGATION MENU *****/
-
-
-/*Desktop Navigation*/
 
 .navbar {
     padding: 0;
@@ -195,9 +183,6 @@ h6 {
     visibility: visible;
 }
 
-
-/*Mobile Navigation*/
-
 .mobile-nav-toggle {
     color: var(--first-color);
     font-size: 28px;
@@ -288,9 +273,6 @@ h6 {
     display: block;
 }
 
-
-/**** BACKGROUND SECTION *****/
-
 #background {
     width: 100%;
     height: 75vh;
@@ -361,9 +343,6 @@ h6 {
     color: var(--first-color);
 }
 
-
-/***** SECTIONS GENERAL *****/
-
 section {
     padding-bottom: 60px;
     overflow: hidden;
@@ -390,9 +369,6 @@ section {
 .section-title p {
     margin-bottom: 0;
 }
-
-
-/***** BANNER *****/
 
 .banner {
     padding: 0;
@@ -436,7 +412,7 @@ section {
 }
 
 
-/***** ABOUT *****/
+/* ABOUT */
 
 .about .container {
     padding-bottom: 10px;
@@ -617,9 +593,6 @@ section {
     }
 }
 
-
-/***** CTA *****/
-
 .cta {
     background: var(--first-color);
     padding: 50px 0;
@@ -657,7 +630,7 @@ section {
 }
 
 
-/***** SERVICES *****/
+/* SERVICES */
 
 .services .icon-box {
     padding: 10px;
@@ -712,12 +685,6 @@ section {
     margin-bottom: 0;
 }
 
-
-/***** ABOUT *****/
-
-
-/*Work Process*/
-
 .work-process .content+.content {
     margin-top: 100px;
 }
@@ -762,9 +729,6 @@ section {
     padding-top: 10px;
 }
 
-
-/*Our Clients*/
-
 .clients {
     padding-top: 60px;
 }
@@ -795,9 +759,6 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--first-color);
 }
-
-
-/***** COMPANY *****/
 
 .card {
     border-radius: var(--border-radius8px);
@@ -860,7 +821,7 @@ section {
 }
 
 
-/***** PROJECTS *****/
+/* PROJECTS */
 
 .projects .projects-item {
     margin-bottom: 30px;
@@ -1002,7 +963,7 @@ section {
 }
 
 
-/****** PROJECTS DETAILS *****/
+/* PROJECTS DETAILS */
 
 .projects-details {
     padding-top: 40px;
@@ -1068,9 +1029,6 @@ section {
     text-align: justify;
 }
 
-
-/***** FREQUENTLY ASKED QUESTIONS *****/
-
 .faq {
     padding-top: 60px;
 }
@@ -1103,7 +1061,7 @@ section {
 }
 
 
-/***** CONTACT *****/
+/* CONTACT */
 
 .contact .info {
     width: 100%;
@@ -1249,92 +1207,6 @@ section {
         transform: rotate(360deg);
     }
 }
-
-
-/***** TEAM *****/
-
-.team {
-    background: var(--third-color);
-}
-
-.team .member {
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-
-.team .member .member-img {
-    width: 280px;
-    height: 330px;
-    position: relative;
-    overflow: hidden;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    margin: auto;
-}
-
-.team .member .social {
-    position: absolute;
-    right: 0;
-    width: 80px;
-    height: 380px;
-    background: var(--fourth-color);
-    opacity: 0;
-    display: flex;
-    align-content: space-between;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.team .member .social a {
-    transition: color 0.4s;
-    color: var(--third-color);
-    margin: 0 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.team .member .social i {
-    font-size: 20px;
-    line-height: 0;
-    padding: 40%;
-}
-
-.team .member .member-info h4 {
-    font-weight: 700;
-    margin: 15px 0 5px 0;
-    font-size: 18px;
-}
-
-.team .member .member-info span {
-    display: block;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin-bottom: 15px;
-    color: var(--first-color);
-}
-
-.team .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 26px;
-    color: var(--fift-color);
-}
-
-.team .member:hover .social {
-    bottom: 0;
-    opacity: 1;
-    transition: 1s;
-    right: -30px;
-    border-radius: 50%;
-}
-
-
-/***** FOOTER *****/
 
 #footer {
     color: var(--third-color);
